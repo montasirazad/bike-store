@@ -5,4 +5,5 @@
 .product button:hover {
    cursor: pointer;
    background-color: yellowgreen;
+   zoom: 1.4;
 }
