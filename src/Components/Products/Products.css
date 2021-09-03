@@ -1,0 +1,8 @@
+.product p {
+    color:blue;
+}
+
+.product button:hover {
+   cursor: pointer;
+   background-color: yellowgreen;
+}
