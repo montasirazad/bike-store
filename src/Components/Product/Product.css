@@ -1,8 +1,42 @@
-.product img {
-    height: 350px;
+.product {
+    text-align: center;
+    border:1.5px solid gray;
+    margin: 15px;
 }
+
+.product img {
+    height: 250px;
+}
+
+.product img:hover {
+    transition: .6s;
+    transform: scale(1.7);
+}
+
+
+
+
 
 .product p{
     color:rgb(3, 59, 124);
     font-size: 23px;
+}
+
+.product button {
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    color:white;
+    background-color:black;
+    border-radius: 4px;
+    border:none;
+}
+
+.product button:hover{
+    background-color: rgb(231, 190, 6);
+     cursor: pointer;
+}
+
+.small {
+    color:red;
 }
