@@ -1,0 +1,12 @@
+.shop{
+    display: flex;
+}
+
+.product-container {
+    width: 1000px;
+
+}
+
+.cart-container{
+    text-align: center;
+}
