@@ -9,7 +9,7 @@
 }
 
 .product img:hover {
-    transition: .6s;
+    transition: 1s;
     transform: scale(1.7);
 }
 
