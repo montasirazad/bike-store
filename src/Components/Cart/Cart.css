@@ -1,9 +1,0 @@
-.cart{
-     display: flex;
-     text-align: center;
-     justify-content: center;
-     border: 2px solid green; 
-     width: 350px;
-     height: 800px;
-     margin-top: 15px;
-}

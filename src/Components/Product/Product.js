@@ -11,7 +11,7 @@ const Product = (props) => {
             
             <h1>{model}</h1>
             <h3>Price : <small className='small'>{price}</small>  BDT</h3>
-            <button> <FontAwesomeIcon icon={faMotorcycle } /> Buy this bike</button>
+            <button onClick={()=>props.handleCart(props.product)}> <FontAwesomeIcon icon={faMotorcycle } /> Buy this bike</button>
             <p>{overview}</p>
 
 
