@@ -1,6 +1,5 @@
 import './App.css';
-import Cart from './Components/Cart/Cart';
-import Shop from './Components/Shop/Shop';
+ import Shop from './Components/Shop/Shop';
 
 
 
