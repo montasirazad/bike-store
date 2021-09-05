@@ -10,4 +10,15 @@
 .cart-container{
     text-align: center;
     width: 400px;
+     
+    
+    
+    
+}
+
+.product-container{
+    /* border: 3px solid red; */
+    height: 800px;
+    overflow-y: hidden;
+    overflow:scroll;
 }

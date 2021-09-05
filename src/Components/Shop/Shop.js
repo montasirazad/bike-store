@@ -17,9 +17,10 @@ const Shop = () => {
 
     }, [])
     const handleCart =(product) => {
-        console.log('add',product)
+        // console.log('add',product)
         const newCart =[...cart,product];
         setCart(newCart)
+        // console.log(newCart)
     }
     return (
         <div className='shop'>
@@ -31,11 +32,11 @@ const Shop = () => {
             </div>
 
             <div className="cart-container">
-                   <Cart cart={cart}></Cart>
+                   <Cart  cart={cart}></Cart>
             </div>
 
         </div>
     );
 };
 
-export default Shop; <h1>Product is coming</h1>
+export default Shop;  
